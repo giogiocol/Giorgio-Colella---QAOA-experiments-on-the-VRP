@@ -205,8 +205,6 @@ def sample_variational_circuit(
 excel_name = "VRP_TOY_SMALL.csv"
 
 opt_key = feas_key = ['010111']
-#opt_key = ['001100001011', '100001001101']
-#feas_key =  ['001100001011', '100001001101', '001001010101', '001010001110', '001001100011', '010001001110']
 
 q = 2
 pen = 1
@@ -383,4 +381,5 @@ print("Best params history:", result["best_params"])
 print("Best opt_prob history:", result["best_prob_opt"])
 print("Best feas_prob history:", result["best_prob_feas"])
 print("Time history:", result["time"])
+
 
