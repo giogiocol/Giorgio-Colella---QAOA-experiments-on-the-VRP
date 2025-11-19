@@ -248,7 +248,6 @@ def normalize_linear_quadratic_sparse_pauli_op(hamiltonian: SparsePauliOp) -> Sp
 excel_name = "VRP_TOY_SMALL.csv"
 
 feas_key = ['010111']
-#feas_key = ['001100001011', '100001001101', '001001010101', '001010001110', '001001100011', '010001001110']
 
 q = 2
 pen = 1
@@ -337,3 +336,4 @@ for reps in reps_range:
 print('\n\nFINAL VALUES ----------------------------------------')
 print("QAOA Ideal Optimal Solution Percentage:", opt_perc_QAOA_ideal)
 print('\nOptimal Params: ', optimal_params)
+
