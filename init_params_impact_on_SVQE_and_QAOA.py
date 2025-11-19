@@ -208,14 +208,6 @@ def sample_variational_circuit(
     
 
 ### MAIN CODE ###
-'''
-QiskitRuntimeService.delete_account()
-
-service = QiskitRuntimeService(
-    channel='ibm_quantum_platform',
-    token= "iCevO97n-xInqHpIMD7ytzyxN4rKaf5y5O-g0f-UCoDG")
-'''
-
 
 excel_name = "VRP_TOY_SMALL.csv"
 opt_key = '010111'
@@ -309,6 +301,7 @@ plt.legend()
 plt.title('Optimal Solution Probability Distribution')
 plt.xlim(0, 1)
 plt.savefig('TOTAL_prob_dist_varying_init_params.png')
+
 
 
 
